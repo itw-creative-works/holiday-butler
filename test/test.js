@@ -16,15 +16,35 @@ after(() => {
  * ============
  */
 describe(`${package.name}`, () => {
-  const lib = require('../dist/index.js');
+  const lib = new (require('../dist/index.js'))();
 
   // Method
   describe('.method()', () => {
 
     // Method tests
     it('this => that', () => {
-      return assert.equal(lib, {});
+      lib.getHoliday({country: 'US', year: 2022})
+      .then(r => {
+        console.log('---r', r);
+      })
+      .catch(e => {
+        console.log('---e', e);
+      })        
+      return true;
+      // return assert.equal(lib, {});
     });
+
+    it('this => that', () => {
+      lib.isHoliday({country: 'US', date: new Date('2050-11-24T05:00:00.000Z')})
+      .then(r => {
+        console.log('---r', r);
+      })
+      .catch(e => {
+        console.log('---e', e);
+      })        
+      return true;
+      // return assert.equal(lib, {});
+    });    
 
   });
 
