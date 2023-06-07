@@ -18,10 +18,10 @@
   <img src="https://img.shields.io/github/last-commit/itw-creative-works/holiday-butler.svg">
   <br>
   <br>
-  <a href="https://https://itwcreativeworks.com">Site</a> | <a href="https://www.npmjs.com/package/holiday-butler">NPM Module</a> | <a href="https://github.com/itw-creative-works/holiday-butler">GitHub Repo</a>
+  <a href="https://itwcreativeworks.com">Site</a> | <a href="https://www.npmjs.com/package/holiday-butler">NPM Module</a> | <a href="https://github.com/itw-creative-works/holiday-butler">GitHub Repo</a>
   <br>
   <br>
-  <strong>holiday-butler</strong> is the official npm module of <a href="https://https://itwcreativeworks.com">Holiday Butler</a>, a free app for getting the dates of holidays for any year in any country.
+  <strong>holiday-butler</strong> is the official npm module of <a href="https://itwcreativeworks.com">Holiday Butler</a>, a free app for getting the dates of holidays for any year in any country.
 </p>
 
 ## Holiday Butler Works in Node AND browser environments
@@ -32,7 +32,7 @@ Yes, this module works in both Node and browser environments, including compatib
 * Works in any country
 
 ### Getting an API key
-You can use so much of `holiday-butler` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Holiday Butler account](https://https://itwcreativeworks.com/authentication/signup).
+You can use so much of `holiday-butler` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Holiday Butler account](https://itwcreativeworks.com/authentication/signup).
 
 ## Install Holiday Butler
 ### Use the API
@@ -55,7 +55,7 @@ npm install holiday-butler
 
 <!-- ```js
 const holiday-butler = new (require('holiday-butler'))({
-  // Not required, but having one removes limits (get your key at https://https://itwcreativeworks.com).
+  // Not required, but having one removes limits (get your key at https://itwcreativeworks.com).
   apiKey: 'api_test_key'
 });
 ```
@@ -66,7 +66,7 @@ Install with CDN if you plan to use Holiday Butler only in a browser environment
 <script src="https://cdn.jsdelivr.net/npm/holiday-butler@latest/dist/index.min.js"></script>
 <script type="text/javascript">
   var holiday-butler = new Holiday Butler({
-    // Not required, but having one removes limits (get your key at https://https://itwcreativeworks.com).
+    // Not required, but having one removes limits (get your key at https://itwcreativeworks.com).
     apiKey: 'api_test_Key'
   });
 </script>
@@ -88,7 +88,7 @@ curl -X POST https://api.https://itwcreativeworks.com
 ```
 
 ## What Can Holiday Butler do?
-Holiday Butler is a free text snippet manager that lets you [create custom text snippets](https://https://itwcreativeworks.com) that you can access on all of your devices!
+Holiday Butler is a free text snippet manager that lets you [create custom text snippets](https://itwcreativeworks.com) that you can access on all of your devices!
 
 ## Final Words
 If you are still having difficulty, we would love for you to post
