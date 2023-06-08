@@ -1,6 +1,6 @@
 {
   "name": "holiday-butler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get dates of holidays for any year in any country.",
   "main": "./dist/index.js",
   "scripts": {
