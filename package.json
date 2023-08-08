@@ -1,6 +1,6 @@
 {
   "name": "holiday-butler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get dates of holidays for any year in any country.",
   "main": "./dist/index.js",
   "scripts": {
@@ -26,13 +26,13 @@
   },
   "homepage": "https://https://itwcreativeworks.com",
   "devDependencies": {
-    "date-holidays": "^3.16.11",
+    "date-holidays": "^3.21.2",
     "fs-jetpack": "^5.1.0",
     "mocha": "^8.4.0",
     "moment": "^2.29.4",
     "prepare-package": "^0.0.16"
   },
   "dependencies": {
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.12"
   }
 }

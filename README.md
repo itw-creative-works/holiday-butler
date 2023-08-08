@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/codeclimate/maintainability-percentage/itw-creative-works/holiday-butler.svg">
   <img src="https://img.shields.io/npm/dm/holiday-butler.svg">
   <img src="https://img.shields.io/node/v/holiday-butler.svg">
-  <img src="https://img.shields.io/website/https/https://itwcreativeworks.com.svg">
+  <img src="https://img.shields.io/website/https/itwcreativeworks.com.svg">
   <img src="https://img.shields.io/github/license/itw-creative-works/holiday-butler.svg">
   <img src="https://img.shields.io/github/contributors/itw-creative-works/holiday-butler.svg">
   <img src="https://img.shields.io/github/last-commit/itw-creative-works/holiday-butler.svg">
@@ -32,7 +32,7 @@ Yes, this module works in both Node and browser environments, including compatib
 * Works in any country
 
 ### Getting an API key
-You can use so much of `holiday-butler` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Holiday Butler account](https://itwcreativeworks.com/authentication/signup).
+You can use so much of `holiday-butler` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Holiday Butler account](https://itwcreativeworks.com/signup).
 
 ## Install Holiday Butler
 ### Use the API

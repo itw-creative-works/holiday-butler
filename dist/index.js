@@ -19,7 +19,7 @@
   var environment = (Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]') ? 'node' : 'browser';
 
   var SOURCE = 'library';
-  var VERSION = '1.0.1';
+  var VERSION = '1.0.2';
 
   function HolidayButler(options) {
     var self = this;
@@ -33,7 +33,7 @@
     var self = this;
 
     return new Promise(function(resolve, reject) {
-    
+
       options = options || {};
       options.country = options.country || 'US';
       options.year = options.year || new Date().getFullYear();
@@ -66,7 +66,7 @@
       })
       .catch(function (e) {
         return reject(e);
-      })      
+      })
 
     });
   }
@@ -78,7 +78,7 @@
 
       options = options || {};
       options.date = new Date(options.date || new Date());
-    
+
       self.getHoliday({country: options.country, year: options.date.getFullYear()})
       .then(function (holidays) {
         for (var index = 0; index < holidays.length; index++) {
