@@ -1,16 +1,17 @@
 {
   "name": "holiday-butler",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Get dates of holidays for any year in any country.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
     "build": "node ./src/build.js",
-    "prepare": "node -e 'require(`prepare-package`)()' && npm run build",
-    "postpublish": "node ./src/clean.js"
+    "prepare": "node -e \"require('prepare-package')()\"",
+    "postpublish": "node ./src/clean.js",
+    "prepare:watch": "nodemon -w ./src -e '*' --exec 'npm run prepare'"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=12"
   },
   "repository": {
     "type": "git",
@@ -25,14 +26,20 @@
     "url": "https://github.com/itw-creative-works/holiday-butler/issues"
   },
   "homepage": "https://https://itwcreativeworks.com",
-  "devDependencies": {
-    "date-holidays": "^3.21.2",
-    "fs-jetpack": "^5.1.0",
-    "mocha": "^8.4.0",
-    "moment": "^2.29.4",
-    "prepare-package": "^0.0.16"
+  "preparePackage": {
+    "input": "./src",
+    "output": "./dist",
+    "replace": {}
   },
   "dependencies": {
+    "itwcw-package-analytics": "^1.0.4",
     "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "date-holidays": "^3.23.12",
+    "fs-jetpack": "^5.1.0",
+    "mocha": "^8.4.0",
+    "moment": "^2.30.1",
+    "prepare-package": "^1.1.12"
   }
 }
